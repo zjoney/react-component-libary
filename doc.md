@@ -8,7 +8,7 @@
 -   框架 react
 -   测试 jest+enzyme
 -   检查 eslint
--   打包 webpack+gulp
+-   打包 webpack+gulp，dist是webpack产物，es是gulp编译出来的es6,lib是gulp编译出来的es5
 -   文档 bisheng
 -   钩子 husky
 
@@ -1072,7 +1072,7 @@ cat ~/.npmrc
 
 ### 9.2 gulpfile.js
 
-gulpfile.js
+gulpfile.js 编译es目录和lib目录
 
 ```
 const gulp = require('gulp');

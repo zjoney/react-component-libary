@@ -61,4 +61,5 @@ gulp.task('compile-with-lib',(done)=>{
     console.log('compile to js');
     compile().on('finish',done);
 });
+// 最后把它们合起来 compile-with-es是编译es6、compile-with-lib是编译es5
 gulp.task('compile',gulp.parallel('compile-with-es','compile-with-lib'));
